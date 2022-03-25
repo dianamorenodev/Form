@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+<body>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">
+         Web developer
+        </h1>
+        <p id="description" class="descriptio" id="text-center">what kind of developer are you</p>
+      </header>
+      <form>
+        <div>
+          <label id="name-label">Name</label>
+          <input type="name" id="name" placeholder="Put your name" class="form-control">
+          <label id="email-label">Email</label>
+          <input type="email" id="email" placeholder="Put your email" class="form-control">
+          <label id="numbe-label">Number</label>
+          <input type="number"
+                id="number"
+                min="10"
+                max="11"
+                class="form-control" placeholder="Put your number">
+        </div>
+        <div>
+          <label for="language">Choose your favorite programming language</label>
+          <select id="drop-down">
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Python">Python</option>
+            <option value="C">C</option>
+            <option value="C#">C#</option>
+            <option value="C++">C++</option>
+          </select>
+        </div>
+        <div>
+          <p>What kind of web developer are you?</p>
+          <label>
+                <input
+                  name="front-end"
+                  value="front-end"
+                  type="radio"
+                  class="input-radio"
+                />front-end
+           </label>
+          <label>
+                <input
+                  name="back-end"
+                  value="back-end"
+                  type="radio"
+                  class="input-radio"
+                />back-end
+           </label>
+          <label>
+                <input
+                  name="full-stack"
+                  value="full-stack"
+                  type="radio"
+                  class="input-radio"
+                />full-stack
+           </label>
+        </div>
+        <textarea id="txt-area">commit your favorite framework</textarea>
+        <button id="submit">submit</button>
+      </form>
+     </div>
+  </body>
+</body>
+</html>
